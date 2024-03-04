@@ -7,6 +7,7 @@ const CONFIG = {
     bio: "I test the REST Api",
     email: "mciechanowski1991@gmail.com",
     linkedin: "michał-ciechanowski",
+    instagram: "ciechan318",
     github: "ciechanowski",
   },
   projects: [
