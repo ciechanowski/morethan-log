@@ -12,13 +12,14 @@ const CONFIG = {
   projects: [
     {
       name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      href: "https://github.com/ciechanowski/morethan-log",
     },
   ],
   // blog setting (required)
   blog: {
     title: "Michał Ciechanowski",
     description: "Fajnie Cię widzieć na moim profilu!",
+    theme: 'dark',
   },
 
   // CONFIG configration (required)
@@ -54,7 +55,7 @@ const CONFIG = {
   utterances: {
     enable: false,
     config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
+      repo: "ciechanowski/morethan-log",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
